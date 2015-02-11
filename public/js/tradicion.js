@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	//var path = 'http://192.168.0.11/webtradicionlocal/public';
 	//var path = 'http://localhost/web/public';
-	var path = 'http://expendiotradicion.com';
+	var path = 'http://tradicionchagoya.com';
 
 	var url = window.location.pathname;
 	var segmentos = url.split("/");

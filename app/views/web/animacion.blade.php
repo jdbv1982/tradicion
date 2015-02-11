@@ -2,7 +2,7 @@
 
 <div id="mod-proceso-container">
 <div id="mod-proceso-tabla">
-<center><img ondragstart="return false;" src="http://tradicionchagoya.com/images/tablaproceso.png" width="350" height="55"></center>
+<center><img ondragstart="return false;" src="http://tradicionchagoya.com/images/general/tablaproceso.png" width="350" height="55"></center>
 	<div valor="1" class="Proceso-item-menu" id="mod-proceso-tabla2" ></div>
 	<div valor="2" class="Proceso-item-menu" id="mod-proceso-tabla3" ></div>
 	<div valor="3" class="Proceso-item-menu" id="mod-proceso-tabla4" ></div>
