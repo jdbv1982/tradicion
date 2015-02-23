@@ -40,6 +40,13 @@ $(document).ready(function() {
 		$("#submenu").slideUp();
 	});
 
+//phone
+
+$(document).on('click','.btn-gen-phone', function(e){
+	e.preventDefault();
+	getHistoria('gethistoria', $(this).attr('valor'), path, seccion);
+});
+
 
 /*animaciones*/
 rotate ('#mod-proceso-maguey1');
@@ -90,7 +97,6 @@ function getProceso(url, id, path, seccion){
 
 
 function getHistoria(url, id, path, idioma){
-
 	$(".Historia-img").html("<img src='http://preloaders.net/preloaders/287/Filling%20broken%20ring.gif'> Espere un momento...");
 
 	$.ajax({

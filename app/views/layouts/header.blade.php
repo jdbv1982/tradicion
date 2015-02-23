@@ -1,3 +1,4 @@
+<div class="header-pc">
 <div class="Redes">
 	<div class="Redes-row">
 		<a href="https://www.facebook.com/pages/Tradicion-Chagoya/529369563767094" target="_blank">
@@ -28,4 +29,20 @@
 </div>
 <div class="web-div-header">
 	{{ HTML::image("/images/desktop/marcoup.jpg","",array("width"=>"1024px", "height"=>"85px")) }}
+</div>
+</div>
+
+<div class="header">
+	<div class="cabecera icono-menu" id="menu-phone">
+		<span class="icon-menu"></span>
+	</div>
+	<div class="cabecera nombre">Tradicion Chagoya</div>
+	<div class="cabecera idioma">
+		<p>
+			<a id="idioma-es" href="{{ url(trans('edad.url')) }}">{{ trans('edad.idioma') }}
+		</p>
+		{{ HTML::image("/images/tablet/logo.jpg","",array("width"=>"48px", "height"=>"48px")) }}
+			</a>
+
+	</div>
 </div>

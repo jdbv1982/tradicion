@@ -11,7 +11,7 @@
         <li><a class="Menu-decoration-left" href="{{ route('contacto')  }}">{{ trans('menu.contacto')}}</a></li>
     </ul>
 </nav>
-    <div class="submenu" id="submenu" style="display:none">
+    <div class="submenu" id="submenu">
         <ul>
                 <li><a href="{{ route('producto', 1)}}">Donají Joven</a></li>
                 <li><a href="{{ route('producto', 2)}}">Donají Añejo</a></li>

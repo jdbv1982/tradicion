@@ -27,7 +27,7 @@
 				<div id="aright">
 					{{ $producto->contenidoacta2 }}
 				</div>
-			</div>
+			</div><br>
 			@endif
 		</div>
 	</div>

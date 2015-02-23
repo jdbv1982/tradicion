@@ -27,10 +27,10 @@
                 {{ HTML::image('/images/general/generaciones/marco5ppal.jpg', null, ["width"=>"88px", "height"=>"124px"]) }}
             </div>
     </div>
-    <div class="Inicio-row text-center">
+    <div class="Inicio-row img-bottle text-center">
         {{ HTML::image('/images/general/generaciones/imagenppal.jpg', null, ["width"=>"400px", "height"=>"375px"] )}}
     </div>
-    <div class="Inicio-row text-center">
+    <div class="Inicio-row text-tradicion text-center">
             <div class="img-head">
                 {{ HTML::image('/images/general/ppaldetalleup.jpg', null, ["width"=>"484px", "height"=>"64px"] )}}
             </div>

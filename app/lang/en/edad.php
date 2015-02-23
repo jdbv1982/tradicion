@@ -3,5 +3,7 @@
 return [
 	'pregunta' => 'Are you of legal drinking age in your country of residence?',
 	'si' => 'YES',
-	'no' => 'NO'
+	'no' => 'NO',
+	'idioma' => 'Español',
+	'url' => '/'
 ];

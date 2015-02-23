@@ -6,6 +6,18 @@
 		<div class="Proceso-modal">
 			@include('web/animacion')
 
+			<div class="menu-proceso-phone">
+				<div valor="1" class="Proceso-item-menu">{{ HTML::image('images/general/proceso/proceso1.jpg', null, ["width"=>"40px", "height"=>"62px"]) }}</div>
+				<div valor="2" class="Proceso-item-menu">{{ HTML::image('images/general/proceso/proceso2.jpg', null, ["width"=>"40px", "height"=>"62px"]) }}</div>
+				<div valor="3" class="Proceso-item-menu">{{ HTML::image('images/general/proceso/proceso3.jpg', null, ["width"=>"40px", "height"=>"62px"]) }}</div>
+				<div valor="4" class="Proceso-item-menu">{{ HTML::image('images/general/proceso/proceso4.jpg', null, ["width"=>"40px", "height"=>"62px"]) }}</div>
+				<div valor="5" class="Proceso-item-menu">{{ HTML::image('images/general/proceso/proceso5.jpg', null, ["width"=>"40px", "height"=>"62px"]) }}</div>
+				<div valor="6" class="Proceso-item-menu">{{ HTML::image('images/general/proceso/proceso6.jpg', null, ["width"=>"40px", "height"=>"62px"]) }}</div>
+				<div valor="7" class="Proceso-item-menu">{{ HTML::image('images/general/proceso/proceso7.jpg', null, ["width"=>"40px", "height"=>"62px"]) }}</div>
+				<div valor="8" class="Proceso-item-menu">{{ HTML::image('images/general/proceso/proceso8.jpg', null, ["width"=>"40px", "height"=>"62px"]) }}</div>
+			</div>
+
+
 			<div class="Proceso-detalle">
 				<div class="detalle-row-left" id="proceso-img">
 					{{ HTML::image('images/general/proceso/proceso1.jpg') }}
@@ -57,7 +69,7 @@
 			<p class="text-justify">{{ trans('proceso.descripcion-titulo1_6') }}</p>
 
 			<p class="Proceso-subtitulo">{{ trans('proceso.titulo1_7') }}</p>
-			<p class="text-justify">{{ trans('proceso.descripcion-titulo1_7') }}</p>
+			<p class="text-justify">{{ trans('proceso.descripcion-titulo1_7') }}</p><br>
 
 		</div>
 		</div>
