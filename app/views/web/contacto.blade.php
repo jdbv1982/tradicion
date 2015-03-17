@@ -18,8 +18,6 @@
 				<p><strong>Correo:</strong><br>
 					ventas@tradicionchagoya.com <br>
 					contacto@tradicionchagoya.com <br>
-					produccion@tradicionchagoya.com
-
 				</p>
 
 
